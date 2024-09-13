@@ -9,7 +9,7 @@
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
-// Description: 
+// Description: PIPELINED RISC V DESIGN BY INTRODUSING THE PIPELINE STAGES
 //
 // Dependencies: 
 //
