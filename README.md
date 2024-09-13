@@ -28,7 +28,7 @@ _Last Updated: 13-September-2024_
 The **RISC-V (RV32I)** instruction set uses 32-bit instructions format. The architecture has **32 general-purpose registers**, where register 0 is always set to zero, and a 32-bit **program counter (PC)** increments word-aligned instructions. The processor supports six instruction formats.
 
 ### Project Overview
-This project involves the design and simulation of a **5-stage pipelined RISC-V processor**. The stages are:
+This project involves the design and simulation of a **4-stage pipelined RISC-V processor**. The stages are:
 - Fetch
 - Decode
 - Execute
