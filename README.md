@@ -138,41 +138,41 @@ The following are waveforms from the simulated ALU operations:
 1. **ADD Immediate Operation**  
    OPERATION: `R2 = R0 + 6`  
    INSTRUCTION FORMAT: `32'b0000000_00110_00000_000_00010_1110011`  
-   ![ADD Immediate](waveforms/addimmediate1.png)
+   ![ADD Immediate](OUTPUT_WAVEFORMS/addimmediate1.png)
 
 2. **NOP Operation**  
    OPERATION: `NOP`  
-   ![NOP Operation](waveforms/nop.png)
+   ![NOP Operation](OUTPUT_WAVEFORMS/nop.png)
 
 3. **ADD Operation**  
    OPERATION: `R6 = R3 + R2`  
    INSTRUCTION FORMAT: `32'b0000000_00010_00011_000_00110_0110011`  
-   ![ADD Operation](waveforms/addop.png)
+   ![ADD Operation](OUTPUT_WAVEFORMS/addop.png)
 
 4. **SUB Operation**  
    OPERATION: `R7 = R3 - R2`  
    INSTRUCTION FORMAT: `32'b0100000_00010_00011_000_00111_0110011`  
-   ![SUB Operation](waveforms/sub.png)
+   ![SUB Operation](OUTPUT_WAVEFORMS/sub.png)
 
 5. **AND Operation**  
    OPERATION: `R8 = R3 & R2`  
    INSTRUCTION FORMAT: `32'b0000000_00010_00011_110_01000_0110011`  
-   ![AND Operation](waveforms/andop.png)
+   ![AND Operation](OUTPUT_WAVEFORMS/andop.png)
 
 6. **OR Operation**  
    OPERATION: `R9 = R3 | R2`  
    INSTRUCTION FORMAT: `32'b0000000_00010_00011_111_01001_0110011`  
-   ![OR Operation](waveforms/orop.png)
+   ![OR Operation](OUTPUT_WAVEFORMS/orop.png)
 
 7. **XOR Operation**  
    OPERATION: `R10 = R3 ^ R2`  
    INSTRUCTION FORMAT: `32'b0000000_00010_00011_100_01010_0110011`  
-   ![XOR Operation](waveforms/xorop.png)
+   ![XOR Operation](OUTPUT_WAVEFORMS/xorop.png)
 
 8. **Halt Operation**  
    OPERATION: `Halt the CPU`  
    Program memory: `32'b0000000_00010_00011_100_01010_1111111`  
-   ![Halt Operation](waveforms/haltop.png)
+   ![Halt Operation](OUTPUT_WAVEFORMS/haltop.png)
 
 ---
 
