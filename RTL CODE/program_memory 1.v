@@ -23,7 +23,7 @@
 
 module program_memory #(
     parameter program_mem_width = 32,  // Width of each instruction
-    parameter program_mem_depth = 4096, // Number of instructions
+    parameter program_mem_depth = 4096, // DEPTH of program memory
     parameter program_mem_addr = 12     // Address width for program memory
 )(
 	 input wire clk, //clock input
@@ -39,8 +39,8 @@ module program_memory #(
 
     // always block to load instructions into the memory
   always@(posedge clk)
-		begin                                                             //r0 hardwired to 32'd0
-                  programmemory[0]<= 32'b0000000_00110_00000_000_00010_1110011;  // addi r2 = r0 + 6 here immediate value given in RS2 and opcode is 1110011
+		begin                                                             //r0 hardwired to 32'd0 in register file
+      programmemory[0]<= 32'b0000000_00110_00000_000_00010_1110011;  // addi r2 = r0 + 6 here immediate value given in RS2 and opcode is 1110011
 		  programmemory[1]<= 32'b0000000_01010_00000_000_00011_1110011;  // addi r3 = r0 + 10 here immediate value given in RS2 and opcode is 1110011
 		  programmemory[2]<= 32'b0000000_00010_00011_000_00110_0000000;// no op 
 		  programmemory[3]<= 32'b0100000_10010_10011_000_00111_0000000;// no op
