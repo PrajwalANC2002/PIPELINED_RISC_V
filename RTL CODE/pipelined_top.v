@@ -52,8 +52,8 @@ wire [31:0] alu_out_writeback;
 wire [4:0] register_addr_writeback;
 wire reg_write_en_writeback;
 
-instr_fetch i0 (
-    .clk(clk), 
+instr_fetch i0 (               //module used to fetch the instruction from program_memory
+    .clk(clk),            
     .rst_n(rst_n), 
     .instruction(instruction_wire_fetch_in)
 );
